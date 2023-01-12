@@ -91,3 +91,7 @@ join countrylanguage on countrylanguage.countrycode = country.code
 GROUP BY country.name
 HAVING COUNT(language) >= 10
 ORDER BY COUNT(language) dESC
+
+--Kat's Test Commit
+SELECT *
+FROM CITY;
